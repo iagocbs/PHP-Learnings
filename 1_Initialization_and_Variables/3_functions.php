@@ -37,3 +37,5 @@ var_dump($result);
 echo "<br>";
 
 // In future, we gonna see more about Aritmatic usage!
+
+?>
