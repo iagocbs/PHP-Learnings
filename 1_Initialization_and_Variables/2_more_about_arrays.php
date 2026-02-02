@@ -89,3 +89,5 @@ if(isset($numericArray)) {
 // unset($value[X]) = This Remove the Specific Value of Array 
 
 unset($numericArray[4]); // In this case, we remove: exemple
+
+?>
