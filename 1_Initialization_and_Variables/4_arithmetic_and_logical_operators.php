@@ -17,14 +17,50 @@ $mod = (2 % 1);  // The Module is indicated by Percentage Symbol "%"
 
 if($sum == $sub) { 
     // The operator " == " indicates equal
-    // When their equal, the conditional actives
+    // When their equal with different types or not, the conditional actives
+
+    return 0;
+}
+
+if($sum === $sub) { 
+    // The operator " === " indicates equal in every term
+    // When their equal value and type, the conditional actives
+
+    return 0;
+}
+
+
+if($sum >= $sub) { 
+    // The operator " >= " indicates greater than or equal
+    // When the variable greater than or equal another, the conditional actives
+
+    return 0;
+}
+
+if($sum > $sub) { 
+    // The operator " > " indicates greater than
+    // When the variable greater than another, the conditional actives
+
+    return 0;
+}
+
+if($sum <= $sub) { 
+    // The operator " <= " indicates less than or equal
+    // When the variable less than or equal another, the conditional actives
+
+    return 0;
+}
+
+if($sum < $sub) { 
+    // The operator " < " indicates less than
+    // When the variable less than another, the conditional actives
 
     return 0;
 }
 
 if($sum != $sub) { 
     // The operator " != " indicates NOT logical
-    // When their different, the conditional actives
+    // When the variable is different than another, the conditional actives
 
     return 0;
 }
