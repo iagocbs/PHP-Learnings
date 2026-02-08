@@ -13,7 +13,7 @@ $recipe = match($food) {
 };
 
 echo "items to use: ";
-var_dump($recipe);
+echo $recipe;
 echo "<br>";
 
 // -----------------------------------------------------------
@@ -24,7 +24,7 @@ echo "<br>";
 
 $age = 19;
 
-$value = match($i) {
+$value = match($age) {
     $age < 18 => "Teenage",
     $age >= 18 => "Adult",
     $age > 50 => "Elder"
