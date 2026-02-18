@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff0ef;
+}
+
+fieldset {
+    border: 5px solid #000000;
+    padding: 25px;
+    background-color: #FFFFFF;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    margin: 5px;
+}
+
+button {
+    padding: 5px 20px;
+    border-radius: 8px;
+    background-color: #390bc3;
+    color: #FFFFFF;
+    border-color: #390bc3;
+}
