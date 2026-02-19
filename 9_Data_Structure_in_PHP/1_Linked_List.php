@@ -21,8 +21,8 @@ class LinkedList {
             }
         }
         unset($this->data[$this->length]);
+        $this->length--;
     }
-
 }
 $list = new LinkedList(["Data1"]);
 var_dump($list->data);
