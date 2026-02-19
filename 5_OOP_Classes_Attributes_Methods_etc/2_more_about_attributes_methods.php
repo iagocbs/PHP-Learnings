@@ -63,6 +63,9 @@ class User {
         $this->age = $age;
     }
 
+    // Off Magic Methods, we can see too, that we most declare type of return,
+    // Like: public function example(): void, and the ": void" represents no
+    // Returns on Method, like:
     public function getName(): string {
         return $this->name;
     }
